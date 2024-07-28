@@ -8,7 +8,7 @@ int main()
 
     // Method 1 (for printing 1 3 5 7 9...)
 
-   //for(int i = 1; i<= (2*n)-1l; i++){
+   //for(int i = 1; i<= (2*n)-1; i++){
    //   cout <<i << " ";
    //}
 
