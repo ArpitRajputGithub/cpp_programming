@@ -21,3 +21,14 @@
 -> Accessing array
     - a[i];
 
+-> Types of arrays 
+    -1D array
+    -2D array
+    -3D array
+
+-> Size of array 
+    -sizeof(arr[]) / sizeof(arr[0]);
+
+-> cout<<arr; and cout<<&arr; gives same result in cpp. Result is address of arr;
+
+-> 
