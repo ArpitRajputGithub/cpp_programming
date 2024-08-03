@@ -31,4 +31,11 @@
 
 -> cout<<arr; and cout<<&arr; gives same result in cpp. Result is address of arr;
 
--> 
+-> passing array to function
+
+-> Arrays and pointers 
+    - int* ptr = arr; (right)
+    - int* ptr = &arr; (wrong)
+    - int* ptr = arr[0]; (right)
+    - int* ptr = &arr[0]; (wrong)
+
