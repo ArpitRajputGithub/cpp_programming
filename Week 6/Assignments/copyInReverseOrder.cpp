@@ -18,7 +18,6 @@ int main()
 
     for (int i = 0; i < v.size(); i++)
     {
-        // vRev[ v.size() - 1] = v[i];
         vRev[i] = v[v.size() - 1 - i];
     }
 
@@ -29,3 +28,4 @@ int main()
     cout << endl;
     return 0;
 }
+
