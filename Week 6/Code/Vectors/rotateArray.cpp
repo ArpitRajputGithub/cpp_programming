@@ -44,10 +44,6 @@ int main()
     cin >> k;
     if(k>n) k = k%n;
 
-    // int i;
-    // cin>>i;
-    // int j;
-    // cin>>j;
     rotatePart(0, n - k - 1, v);
     rotatePart(n - k, n - 1, v);
     rotatePart(0, n - 1, v);
