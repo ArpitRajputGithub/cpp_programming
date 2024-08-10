@@ -47,35 +47,35 @@ vector<int> mergeVec(vector<int> &arr1, vector<int> &arr2)
         }
     }
 
-     if (j == m)
+    if (j == m)
     {
         while (i <= n-1)
         {
-            res[k] = arr2[j];
+            res[k] = arr1[i];
             k++;
             i++;
         }
-        return res;
     }
+    return res;
 }
 
 int main()
 {
     vector<int> arr1;
     arr1.push_back(1);
-    arr1.push_back(5);
-    arr1.push_back(6);
     arr1.push_back(2);
     arr1.push_back(3);
+    arr1.push_back(5);
+    arr1.push_back(6);
     display(arr1);
 
     vector<int> arr2;
-    arr2.push_back(9);
-    arr2.push_back(2);
-    arr2.push_back(4);
-    arr2.push_back(10);
     arr2.push_back(1);
+    arr2.push_back(2);
     arr2.push_back(3);
+    arr2.push_back(4);
+    arr2.push_back(9);
+    arr2.push_back(10);
     display(arr2);
 
     vector<int> vec = mergeVec(arr1, arr2);
