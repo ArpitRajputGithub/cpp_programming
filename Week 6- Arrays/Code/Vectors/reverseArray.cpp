@@ -26,6 +26,7 @@ int main()
 
     int i = 0;
     int j = v.size() - 1;
+
     while (i <= j)
     {
         int temp = v[i];
@@ -34,6 +35,7 @@ int main()
         i++;
         j--;
     }
+
     display(v);
     return 0;
 }
