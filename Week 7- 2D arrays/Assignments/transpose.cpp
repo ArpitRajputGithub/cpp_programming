@@ -19,7 +19,7 @@ int main()
     }
     cout << endl;
 
-    // Transpose
+    // Transpose for any size of matrix
     int t[n][m];
     for (int i = 0; i < n; i++)
     {
